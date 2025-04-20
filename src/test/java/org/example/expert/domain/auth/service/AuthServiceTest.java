@@ -39,7 +39,7 @@ class AuthServiceTest {
     @Test
     void signup_이미_존재하는_이메일() {
         // given
-        SignupRequest signupRequest = new SignupRequest("test@example.com", "password", "USER");
+        SignupRequest signupRequest = new SignupRequest("test@example.com", "password",  UserRole.USER);
         when(userRepository.existsByEmail(signupRequest.getEmail())).thenReturn(true);
 
         // when
@@ -52,7 +52,7 @@ class AuthServiceTest {
     @Test
     void signup_정상_회원가입() {
         // given
-        SignupRequest signupRequest = new SignupRequest("test@example.com", "password", "USER");
+        SignupRequest signupRequest = new SignupRequest("test@example.com", "password", UserRole.USER);
         when(userRepository.existsByEmail(signupRequest.getEmail())).thenReturn(false);
         when(passwordEncoder.encode(signupRequest.getPassword())).thenReturn("encodedPassword");
         when(userRepository.save(any(User.class))).thenReturn(new User("test@example.com", "encodedPassword", UserRole.USER));
