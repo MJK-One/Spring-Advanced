@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.expert.domain.auth.service.AuthServiceTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-04-20T17:06:54" hostname="DESKTOP-HJUDTTC" time="2.142">
+  <properties/>
+  <testcase name="signin_잘못된_비밀번호()" classname="org.example.expert.domain.auth.service.AuthServiceTest" time="2.086"/>
+  <testcase name="signup_정상_회원가입()" classname="org.example.expert.domain.auth.service.AuthServiceTest" time="0.019"/>
+  <testcase name="signup_이미_존재하는_이메일()" classname="org.example.expert.domain.auth.service.AuthServiceTest" time="0.008"/>
+  <testcase name="signin_가입되지_않은_유저()" classname="org.example.expert.domain.auth.service.AuthServiceTest" time="0.008"/>
+  <testcase name="signin_정상_로그인()" classname="org.example.expert.domain.auth.service.AuthServiceTest" time="0.011"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
