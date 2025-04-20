@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.expert.domain.comment.service.CommentServiceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-04-20T16:29:17" hostname="DESKTOP-HJUDTTC" time="1.404">
+  <properties/>
+  <testcase name="comment_등록_중_할일을_찾지_못해_에러가_발생한다()" classname="org.example.expert.domain.comment.service.CommentServiceTest" time="1.388"/>
+  <testcase name="comment를_정상적으로_등록한다()" classname="org.example.expert.domain.comment.service.CommentServiceTest" time="0.011"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
